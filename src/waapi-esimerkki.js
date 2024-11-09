@@ -9,7 +9,7 @@ document.getElementById('button').addEventListener('click', () => {
 
   // 3. Audiosignaalin voimakkuuden lasku
   const gainNode = audioCtx.createGain();
-  gainNode.gain.value = 0.5;
+  gainNode.gain.value = 0.6;
 
   // 4. Audion suodatus
   const filterNode = audioCtx.createBiquadFilter();
